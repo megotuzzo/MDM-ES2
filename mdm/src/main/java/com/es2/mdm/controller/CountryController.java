@@ -3,6 +3,7 @@ package com.es2.mdm.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,42 +14,65 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.es2.mdm.model.Country;
-import com.es2.mdm.repository.CountryRepository;
+import com.es2.mdm.dto.CountryDTO;
+import com.es2.mdm.service.CountryService;
+
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/countries")
 public class CountryController {
 
+    private final CountryService countryService;
+
     @Autowired
-    private CountryRepository countryRepository;
-
-    @GetMapping
-    public List<Country> getAll() {
-        return countryRepository.findAll();
+    public CountryController(CountryService countryService) {
+        this.countryService = countryService;
     }
 
+    /**
+     * Cria um novo país. Endpoint: POST /countries Body: CountryDTO
+     */
     @PostMapping
-    public Country create(@RequestBody Country country) {
-        return countryRepository.save(country);
+    public ResponseEntity<CountryDTO> createCountry(@Valid @RequestBody CountryDTO countryDTO) {
+        CountryDTO createdCountry = countryService.createCountry(countryDTO);
+        return new ResponseEntity<>(createdCountry, HttpStatus.CREATED);
     }
 
+    /**
+     * Lista todos os países. Endpoint: GET /countries
+     */
+    @GetMapping
+    public ResponseEntity<List<CountryDTO>> getAllCountries() {
+        List<CountryDTO> countries = countryService.getAllCountries();
+        return ResponseEntity.ok(countries);
+    }
+
+    /**
+     * Obtém um país pelo ID. Endpoint: GET /countries/{id}
+     */
+    @GetMapping("/{id}")
+    public ResponseEntity<CountryDTO> getCountryById(@PathVariable Integer id) {
+        CountryDTO countryDTO = countryService.getCountryById(id); // Se lançar EntityNotFoundException, o ControllerAdvice pega.
+        return ResponseEntity.ok(countryDTO);
+    }
+
+    /**
+     * Atualiza um país existente. Endpoint: PUT /countries/{id} Body:
+     * CountryDTO
+     */
     @PutMapping("/{id}")
-    public ResponseEntity<Country> update(@PathVariable Long id, @RequestBody Country updated) {
-        return countryRepository.findById(id)
-                .map(country -> {
-                    country.setCountryName(updated.getCountryName());
-                    // O QUE MAIS?
-                    return ResponseEntity.ok(countryRepository.save(country));
-                }).orElse(ResponseEntity.notFound().build());
+    public ResponseEntity<CountryDTO> updateCountry(@PathVariable Integer id, @Valid @RequestBody CountryDTO countryDTO) {
+        CountryDTO updatedCountry = countryService.updateCountry(id, countryDTO);
+        return ResponseEntity.ok(updatedCountry);
     }
 
+    /**
+     * Deleta um país pelo ID. Endpoint: DELETE /countries/{id}
+     */
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> delete(@PathVariable Long id) {
-        if (countryRepository.existsById(id)) {
-            countryRepository.deleteById(id);
-            return ResponseEntity.ok().build();
-        }
-        return ResponseEntity.notFound().build();
+    public ResponseEntity<Void> deleteCountry(@PathVariable Integer id) {
+        countryService.deleteCountry(id);
+        return ResponseEntity.noContent().build(); // HTTP 204 No Content
     }
 }
