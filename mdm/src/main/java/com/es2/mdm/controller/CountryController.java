@@ -58,8 +58,8 @@ public class CountryController {
     }
 
     /**
-     * Atualiza um país existente. Endpoint: PUT /countries/{id} Body:
-     * CountryDTO
+     * Atualiza um país existente. Endpoint: PUT /countries/{id} 
+     * Body: CountryDTO
      */
     @PutMapping("/{id}")
     public ResponseEntity<CountryDTO> updateCountry(@PathVariable Integer id, @Valid @RequestBody CountryDTO countryDTO) {
@@ -74,5 +74,21 @@ public class CountryController {
     public ResponseEntity<Void> deleteCountry(@PathVariable Integer id) {
         countryService.deleteCountry(id);
         return ResponseEntity.noContent().build(); // HTTP 204 No Content
+    }
+    /**
+     * Recebe uma lista de países processados. Endpoint: POST /countries/callback
+     * Body: List<CountryDTO>
+     */
+    @PostMapping("/callback")
+    public ResponseEntity<String> receiveCountries(@RequestBody List<CountryDTO> processedCountries) {
+        try {
+            
+            countryService.processAndSaveCountries(processedCountries);
+            return ResponseEntity.ok("Dados de países recebidos e processados com sucesso.");
+        } catch (Exception e) {
+            
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Erro ao processar dados dos países: " + e.getMessage());
+        }
     }
 }

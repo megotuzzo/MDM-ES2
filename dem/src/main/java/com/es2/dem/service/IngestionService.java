@@ -1,18 +1,20 @@
 package com.es2.dem.service;
 
-import com.es2.dem.dto.IngestionDTO;
-import com.es2.dem.dto.IngestionRequestDTO;
-import com.es2.dem.enums.IngestionStatus; 
-import com.es2.dem.model.Ingestion;     
-import com.es2.dem.repository.IngestionRepository;
-import jakarta.persistence.EntityNotFoundException; // Ou sua exceção customizada
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.time.format.DateTimeFormatter;
-import java.util.List;
-import java.util.stream.Collectors;
+import com.es2.dem.dto.IngestionDTO;
+import com.es2.dem.dto.IngestionRequestDTO;
+import com.es2.dem.enums.IngestionStatus;
+import com.es2.dem.model.Ingestion;
+import com.es2.dem.repository.IngestionRepository;
+
+import jakarta.persistence.EntityNotFoundException;
 
 @Service
 public class IngestionService {
@@ -33,10 +35,9 @@ public class IngestionService {
         newIngestion.setStatus(IngestionStatus.PENDING); // status inicial
 
         // rawDataPath, transformedDataPath, statusMessage serão preenchidos depois
-
         Ingestion savedIngestion = ingestionRepository.save(newIngestion);
         // Aqui o processo de extração
-        
+
         return convertToDTO(savedIngestion);
     }
 
@@ -59,9 +60,9 @@ public class IngestionService {
         IngestionDTO dto = new IngestionDTO();
         dto.setId(ingestion.getId());
         dto.setMdmProviderId(ingestion.getMdmProviderId());
-        
+
         if (ingestion.getStatus() != null) {
-            dto.setStatus(ingestion.getStatus().name()); 
+            dto.setStatus(ingestion.getStatus().name());
         }
         dto.setRawDataPath(ingestion.getRawDataPath());
         dto.setTransformedDataPath(ingestion.getTransformedDataPath());

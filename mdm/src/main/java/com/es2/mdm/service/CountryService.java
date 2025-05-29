@@ -2,6 +2,7 @@ package com.es2.mdm.service;
 
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -79,6 +80,40 @@ public class CountryService {
             throw new EntityNotFoundException("Country not found with id: " + id);
         }
         countryRepository.deleteById(id);
+    }
+
+    @Transactional
+    public void processAndSaveCountries(List<CountryDTO> countryDTOs) {
+        if (countryDTOs == null || countryDTOs.isEmpty()) {
+            return;
+        }
+
+        for (CountryDTO dto : countryDTOs) {
+            Optional<Country> existingCountryOpt = Optional.empty();
+            if (dto.getNumericCode() != null) { 
+                existingCountryOpt = countryRepository.findByNumericCode(dto.getNumericCode());
+
+            } 
+            
+            Country countryToSave;
+            if (existingCountryOpt.isPresent()) { //se ja existe um país com o mesmo código numérico, atualiza o país
+                countryToSave = existingCountryOpt.get();
+                // Atualiza os campos de countryToSave com os valores de dto
+                countryToSave.setCountryName(dto.getCountryName());
+                countryToSave.setCapitalCity(dto.getCapitalCity());
+                countryToSave.setPopulation(dto.getPopulation());
+                countryToSave.setArea(dto.getArea());
+                
+                countryToSave.getCurrencies().clear();
+                if (dto.getCurrencies() != null) { 
+                    dto.getCurrencies().forEach(currencyDTO -> countryToSave.addCurrency(convertToEntity(currencyDTO, countryToSave)));
+                }
+
+            } else {    //Cria novo país
+                countryToSave = convertToEntity(dto); 
+            }
+            countryRepository.save(countryToSave);
+        }
     }
 
     //conversao entre entidades e DTOs
