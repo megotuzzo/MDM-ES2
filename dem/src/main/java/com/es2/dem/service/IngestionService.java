@@ -100,6 +100,8 @@ public class IngestionService {
     // salva os dados brutos em um arquivo e chama o método de transformação para processar os dados.
     // Ele atualiza o status da ingestão conforme o progresso do processo.
     @Async 
+    // Async para evitar o longo tempo de espera do MDM (pode ocasionar timeouts) e
+    // evitar o bloqueio do thread principal do servidor.
     public void startExtractionProcess(Integer ingestionId) {
         // Verifica se a ID de ingestão é válida
         Ingestion ingestion = ingestionRepository.findById(ingestionId).orElse(null);
@@ -107,8 +109,7 @@ public class IngestionService {
             logger.error("Ingestion ID {} não encontrado para iniciar extração.", ingestionId);
             return;
         }
-        // Atualiza o status da ingestão para PROCESSING e salva a mensagem inicial
-        ingestion.setStatus(IngestionStatus.PROCESSING);
+
         ingestion.setStatusMessage("Iniciando processo de extração: buscando detalhes do provedor.");
         ingestionRepository.save(ingestion);
 
