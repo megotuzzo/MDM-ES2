@@ -30,7 +30,7 @@ public class Currency {
     @Column(name = "CurrencyName", length = 100)
     private String currencyName;
 
-    @Column(name = "CurrencySymbol", length = 5)
+    @Column(name = "CurrencySymbol", length = 15)
     private String currencySymbol;
 
     @ManyToOne(fetch = FetchType.LAZY)

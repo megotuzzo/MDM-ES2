@@ -1,0 +1,3841 @@
+[ {
+  "id" : null,
+  "countryName" : "Mongolia",
+  "numericCode" : 496,
+  "capitalCity" : "Ulan Bator",
+  "population" : 3278292,
+  "area" : 1564110.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MNT",
+    "currencyName" : "Mongolian tögrög",
+    "currencySymbol" : "₮"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Panama",
+  "numericCode" : 591,
+  "capitalCity" : "Panama City",
+  "population" : 4314768,
+  "area" : 75417.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "PAB",
+    "currencyName" : "Panamanian balboa",
+    "currencySymbol" : "B/."
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Tonga",
+  "numericCode" : 776,
+  "capitalCity" : "Nuku'alofa",
+  "population" : 105697,
+  "area" : 747.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "TOP",
+    "currencyName" : "Tongan paʻanga",
+    "currencySymbol" : "T$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Comoros",
+  "numericCode" : 174,
+  "capitalCity" : "Moroni",
+  "population" : 869595,
+  "area" : 1862.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "KMF",
+    "currencyName" : "Comorian franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Sweden",
+  "numericCode" : 752,
+  "capitalCity" : "Stockholm",
+  "population" : 10353442,
+  "area" : 450295.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SEK",
+    "currencyName" : "Swedish krona",
+    "currencySymbol" : "kr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Guinea",
+  "numericCode" : 324,
+  "capitalCity" : "Conakry",
+  "population" : 13132792,
+  "area" : 245857.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GNF",
+    "currencyName" : "Guinean franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Fiji",
+  "numericCode" : 242,
+  "capitalCity" : "Suva",
+  "population" : 896444,
+  "area" : 18272.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "FJD",
+    "currencyName" : "Fijian dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Saudi Arabia",
+  "numericCode" : 682,
+  "capitalCity" : "Riyadh",
+  "population" : 34813867,
+  "area" : 2149690.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SAR",
+    "currencyName" : "Saudi riyal",
+    "currencySymbol" : "ر.س"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "New Caledonia",
+  "numericCode" : 540,
+  "capitalCity" : "Nouméa",
+  "population" : 271960,
+  "area" : 18575.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XPF",
+    "currencyName" : "CFP franc",
+    "currencySymbol" : "₣"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Cape Verde",
+  "numericCode" : 132,
+  "capitalCity" : "Praia",
+  "population" : 555988,
+  "area" : 4033.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "CVE",
+    "currencyName" : "Cape Verdean escudo",
+    "currencySymbol" : "Esc"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Christmas Island",
+  "numericCode" : 162,
+  "capitalCity" : "Flying Fish Cove",
+  "population" : 2072,
+  "area" : 135.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AUD",
+    "currencyName" : "Australian dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "South Africa",
+  "numericCode" : 710,
+  "capitalCity" : "Pretoria",
+  "population" : 59308690,
+  "area" : 1221037.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "ZAR",
+    "currencyName" : "South African rand",
+    "currencySymbol" : "R"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Iran",
+  "numericCode" : 364,
+  "capitalCity" : "Tehran",
+  "population" : 83992953,
+  "area" : 1648195.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "IRR",
+    "currencyName" : "Iranian rial",
+    "currencySymbol" : "﷼"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Azerbaijan",
+  "numericCode" : 31,
+  "capitalCity" : "Baku",
+  "population" : 10110116,
+  "area" : 86600.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AZN",
+    "currencyName" : "Azerbaijani manat",
+    "currencySymbol" : "₼"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Nepal",
+  "numericCode" : 524,
+  "capitalCity" : "Kathmandu",
+  "population" : 29136808,
+  "area" : 147181.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "NPR",
+    "currencyName" : "Nepalese rupee",
+    "currencySymbol" : "₨"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Lebanon",
+  "numericCode" : 422,
+  "capitalCity" : "Beirut",
+  "population" : 6825442,
+  "area" : 10452.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "LBP",
+    "currencyName" : "Lebanese pound",
+    "currencySymbol" : "ل.ل"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "British Indian Ocean Territory",
+  "numericCode" : 86,
+  "capitalCity" : "Diego Garcia",
+  "population" : 3000,
+  "area" : 60.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "South Sudan",
+  "numericCode" : 728,
+  "capitalCity" : "Juba",
+  "population" : 11193729,
+  "area" : 619745.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SSP",
+    "currencyName" : "South Sudanese pound",
+    "currencySymbol" : "£"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "São Tomé and Príncipe",
+  "numericCode" : 678,
+  "capitalCity" : "São Tomé",
+  "population" : 219161,
+  "area" : 964.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "STN",
+    "currencyName" : "São Tomé and Príncipe dobra",
+    "currencySymbol" : "Db"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Moldova",
+  "numericCode" : 498,
+  "capitalCity" : "Chișinău",
+  "population" : 2617820,
+  "area" : 33846.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MDL",
+    "currencyName" : "Moldovan leu",
+    "currencySymbol" : "L"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "United States Virgin Islands",
+  "numericCode" : 850,
+  "capitalCity" : "Charlotte Amalie",
+  "population" : 106290,
+  "area" : 347.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Rwanda",
+  "numericCode" : 646,
+  "capitalCity" : "Kigali",
+  "population" : 12952209,
+  "area" : 26338.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "RWF",
+    "currencyName" : "Rwandan franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Montenegro",
+  "numericCode" : 499,
+  "capitalCity" : "Podgorica",
+  "population" : 621718,
+  "area" : 13812.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Kyrgyzstan",
+  "numericCode" : 417,
+  "capitalCity" : "Bishkek",
+  "population" : 6591600,
+  "area" : 199951.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "KGS",
+    "currencyName" : "Kyrgyzstani som",
+    "currencySymbol" : "с"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Burundi",
+  "numericCode" : 108,
+  "capitalCity" : "Gitega",
+  "population" : 11890781,
+  "area" : 27834.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BIF",
+    "currencyName" : "Burundian franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Kiribati",
+  "numericCode" : 296,
+  "capitalCity" : "South Tarawa",
+  "population" : 119446,
+  "area" : 811.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AUD",
+    "currencyName" : "Australian dollar",
+    "currencySymbol" : "$"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "KID",
+    "currencyName" : "Kiribati dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Barbados",
+  "numericCode" : 52,
+  "capitalCity" : "Bridgetown",
+  "population" : 287371,
+  "area" : 430.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BBD",
+    "currencyName" : "Barbadian dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Andorra",
+  "numericCode" : 20,
+  "capitalCity" : "Andorra la Vella",
+  "population" : 77265,
+  "area" : 468.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Kazakhstan",
+  "numericCode" : 398,
+  "capitalCity" : "Astana",
+  "population" : 18754440,
+  "area" : 2724900.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "KZT",
+    "currencyName" : "Kazakhstani tenge",
+    "currencySymbol" : "₸"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Jordan",
+  "numericCode" : 400,
+  "capitalCity" : "Amman",
+  "population" : 10203140,
+  "area" : 89342.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "JOD",
+    "currencyName" : "Jordanian dinar",
+    "currencySymbol" : "د.ا"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Macau",
+  "numericCode" : 446,
+  "capitalCity" : null,
+  "population" : 649342,
+  "area" : 30.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MOP",
+    "currencyName" : "Macanese pataca",
+    "currencySymbol" : "P"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Cyprus",
+  "numericCode" : 196,
+  "capitalCity" : "Nicosia",
+  "population" : 1207361,
+  "area" : 9251.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Indonesia",
+  "numericCode" : 360,
+  "capitalCity" : "Jakarta",
+  "population" : 273523621,
+  "area" : 1904569.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "IDR",
+    "currencyName" : "Indonesian rupiah",
+    "currencySymbol" : "Rp"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "El Salvador",
+  "numericCode" : 222,
+  "capitalCity" : "San Salvador",
+  "population" : 6486201,
+  "area" : 21041.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Åland Islands",
+  "numericCode" : 248,
+  "capitalCity" : "Mariehamn",
+  "population" : 29458,
+  "area" : 1580.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Brunei",
+  "numericCode" : 96,
+  "capitalCity" : "Bandar Seri Begawan",
+  "population" : 437483,
+  "area" : 5765.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BND",
+    "currencyName" : "Brunei dollar",
+    "currencySymbol" : "$"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "SGD",
+    "currencyName" : "Singapore dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Wallis and Futuna",
+  "numericCode" : 876,
+  "capitalCity" : "Mata-Utu",
+  "population" : 11750,
+  "area" : 142.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XPF",
+    "currencyName" : "CFP franc",
+    "currencySymbol" : "₣"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Japan",
+  "numericCode" : 392,
+  "capitalCity" : "Tokyo",
+  "population" : 125836021,
+  "area" : 377930.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "JPY",
+    "currencyName" : "Japanese yen",
+    "currencySymbol" : "¥"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Estonia",
+  "numericCode" : 233,
+  "capitalCity" : "Tallinn",
+  "population" : 1331057,
+  "area" : 45227.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Northern Mariana Islands",
+  "numericCode" : 580,
+  "capitalCity" : "Saipan",
+  "population" : 57557,
+  "area" : 464.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Canada",
+  "numericCode" : 124,
+  "capitalCity" : "Ottawa",
+  "population" : 38005238,
+  "area" : 9984670.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "CAD",
+    "currencyName" : "Canadian dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "French Southern and Antarctic Lands",
+  "numericCode" : 260,
+  "capitalCity" : "Port-aux-Français",
+  "population" : 400,
+  "area" : 7747.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Svalbard and Jan Mayen",
+  "numericCode" : 744,
+  "capitalCity" : "Longyearbyen",
+  "population" : 2562,
+  "area" : 61399.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "NOK",
+    "currencyName" : "krone",
+    "currencySymbol" : "kr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "United Arab Emirates",
+  "numericCode" : 784,
+  "capitalCity" : "Abu Dhabi",
+  "population" : 9890400,
+  "area" : 83600.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AED",
+    "currencyName" : "United Arab Emirates dirham",
+    "currencySymbol" : "د.إ"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Botswana",
+  "numericCode" : 72,
+  "capitalCity" : "Gaborone",
+  "population" : 2351625,
+  "area" : 582000.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BWP",
+    "currencyName" : "Botswana pula",
+    "currencySymbol" : "P"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Mauritania",
+  "numericCode" : 478,
+  "capitalCity" : "Nouakchott",
+  "population" : 4649660,
+  "area" : 1030700.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MRU",
+    "currencyName" : "Mauritanian ouguiya",
+    "currencySymbol" : "UM"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Western Sahara",
+  "numericCode" : 732,
+  "capitalCity" : "El Aaiún",
+  "population" : 510713,
+  "area" : 266000.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "DZD",
+    "currencyName" : "Algerian dinar",
+    "currencySymbol" : "دج"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "MAD",
+    "currencyName" : "Moroccan dirham",
+    "currencySymbol" : "DH"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "MRU",
+    "currencyName" : "Mauritanian ouguiya",
+    "currencySymbol" : "UM"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Guam",
+  "numericCode" : 316,
+  "capitalCity" : "Hagåtña",
+  "population" : 168783,
+  "area" : 549.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Madagascar",
+  "numericCode" : 450,
+  "capitalCity" : "Antananarivo",
+  "population" : 27691019,
+  "area" : 587041.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MGA",
+    "currencyName" : "Malagasy ariary",
+    "currencySymbol" : "Ar"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Laos",
+  "numericCode" : 418,
+  "capitalCity" : "Vientiane",
+  "population" : 7275556,
+  "area" : 236800.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "LAK",
+    "currencyName" : "Lao kip",
+    "currencySymbol" : "₭"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Somalia",
+  "numericCode" : 706,
+  "capitalCity" : "Mogadishu",
+  "population" : 15893219,
+  "area" : 637657.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SOS",
+    "currencyName" : "Somali shilling",
+    "currencySymbol" : "Sh"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Haiti",
+  "numericCode" : 332,
+  "capitalCity" : "Port-au-Prince",
+  "population" : 11402533,
+  "area" : 27750.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "HTG",
+    "currencyName" : "Haitian gourde",
+    "currencySymbol" : "G"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Falkland Islands",
+  "numericCode" : 238,
+  "capitalCity" : "Stanley",
+  "population" : 2563,
+  "area" : 12173.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "FKP",
+    "currencyName" : "Falkland Islands pound",
+    "currencySymbol" : "£"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Czechia",
+  "numericCode" : 203,
+  "capitalCity" : "Prague",
+  "population" : 10698896,
+  "area" : 78865.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "CZK",
+    "currencyName" : "Czech koruna",
+    "currencySymbol" : "Kč"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Bahamas",
+  "numericCode" : 44,
+  "capitalCity" : "Nassau",
+  "population" : 393248,
+  "area" : 13943.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BSD",
+    "currencyName" : "Bahamian dollar",
+    "currencySymbol" : "$"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Malta",
+  "numericCode" : 470,
+  "capitalCity" : "Valletta",
+  "population" : 525285,
+  "area" : 316.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Mauritius",
+  "numericCode" : 480,
+  "capitalCity" : "Port Louis",
+  "population" : 1265740,
+  "area" : 2040.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MUR",
+    "currencyName" : "Mauritian rupee",
+    "currencySymbol" : "₨"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Pakistan",
+  "numericCode" : 586,
+  "capitalCity" : "Islamabad",
+  "population" : 220892331,
+  "area" : 881912.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "PKR",
+    "currencyName" : "Pakistani rupee",
+    "currencySymbol" : "₨"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Sudan",
+  "numericCode" : 729,
+  "capitalCity" : "Khartoum",
+  "population" : 43849269,
+  "area" : 1886068.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SDG",
+    "currencyName" : "Sudanese pound",
+    "currencySymbol" : "ج.س"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Latvia",
+  "numericCode" : 428,
+  "capitalCity" : "Riga",
+  "population" : 1901548,
+  "area" : 64559.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Lithuania",
+  "numericCode" : 440,
+  "capitalCity" : "Vilnius",
+  "population" : 2794700,
+  "area" : 65300.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Portugal",
+  "numericCode" : 620,
+  "capitalCity" : "Lisbon",
+  "population" : 10305564,
+  "area" : 92090.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Luxembourg",
+  "numericCode" : 442,
+  "capitalCity" : "Luxembourg",
+  "population" : 632275,
+  "area" : 2586.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "North Macedonia",
+  "numericCode" : 807,
+  "capitalCity" : "Skopje",
+  "population" : 2077132,
+  "area" : 25713.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MKD",
+    "currencyName" : "denar",
+    "currencySymbol" : "den"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "South Georgia",
+  "numericCode" : 239,
+  "capitalCity" : "King Edward Point",
+  "population" : 30,
+  "area" : 3903.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GBP",
+    "currencyName" : "British pound",
+    "currencySymbol" : "£"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Serbia",
+  "numericCode" : 688,
+  "capitalCity" : "Belgrade",
+  "population" : 6908224,
+  "area" : 88361.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "RSD",
+    "currencyName" : "Serbian dinar",
+    "currencySymbol" : "дин."
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "United Kingdom",
+  "numericCode" : 826,
+  "capitalCity" : "London",
+  "population" : 67215293,
+  "area" : 242900.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GBP",
+    "currencyName" : "British pound",
+    "currencySymbol" : "£"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Tokelau",
+  "numericCode" : 772,
+  "capitalCity" : "Fakaofo",
+  "population" : 1411,
+  "area" : 12.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "NZD",
+    "currencyName" : "New Zealand dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Kenya",
+  "numericCode" : 404,
+  "capitalCity" : "Nairobi",
+  "population" : 53771300,
+  "area" : 580367.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "KES",
+    "currencyName" : "Kenyan shilling",
+    "currencySymbol" : "Sh"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Niger",
+  "numericCode" : 562,
+  "capitalCity" : "Niamey",
+  "population" : 24206636,
+  "area" : 1267000.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XOF",
+    "currencyName" : "West African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Republic of the Congo",
+  "numericCode" : 178,
+  "capitalCity" : "Brazzaville",
+  "population" : 5657000,
+  "area" : 342000.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XAF",
+    "currencyName" : "Central African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Cuba",
+  "numericCode" : 192,
+  "capitalCity" : "Havana",
+  "population" : 11326616,
+  "area" : 109884.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "CUC",
+    "currencyName" : "Cuban convertible peso",
+    "currencySymbol" : "$"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "CUP",
+    "currencyName" : "Cuban peso",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Eswatini",
+  "numericCode" : 748,
+  "capitalCity" : "Mbabane",
+  "population" : 1160164,
+  "area" : 17364.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SZL",
+    "currencyName" : "Swazi lilangeni",
+    "currencySymbol" : "L"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "ZAR",
+    "currencyName" : "South African rand",
+    "currencySymbol" : "R"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Albania",
+  "numericCode" : 8,
+  "capitalCity" : "Tirana",
+  "population" : 2837743,
+  "area" : 28748.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "ALL",
+    "currencyName" : "Albanian lek",
+    "currencySymbol" : "L"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Mali",
+  "numericCode" : 466,
+  "capitalCity" : "Bamako",
+  "population" : 20250834,
+  "area" : 1240192.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XOF",
+    "currencyName" : "West African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Togo",
+  "numericCode" : 768,
+  "capitalCity" : "Lomé",
+  "population" : 8278737,
+  "area" : 56785.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XOF",
+    "currencyName" : "West African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Romania",
+  "numericCode" : 642,
+  "capitalCity" : "Bucharest",
+  "population" : 19286123,
+  "area" : 238391.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "RON",
+    "currencyName" : "Romanian leu",
+    "currencySymbol" : "lei"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Oman",
+  "numericCode" : 512,
+  "capitalCity" : "Muscat",
+  "population" : 5106622,
+  "area" : 309500.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "OMR",
+    "currencyName" : "Omani rial",
+    "currencySymbol" : "ر.ع."
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Egypt",
+  "numericCode" : 818,
+  "capitalCity" : "Cairo",
+  "population" : 102334403,
+  "area" : 1002450.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EGP",
+    "currencyName" : "Egyptian pound",
+    "currencySymbol" : "£"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "New Zealand",
+  "numericCode" : 554,
+  "capitalCity" : "Wellington",
+  "population" : 5084300,
+  "area" : 270467.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "NZD",
+    "currencyName" : "New Zealand dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Russia",
+  "numericCode" : 643,
+  "capitalCity" : "Moscow",
+  "population" : 144104080,
+  "area" : 1.7098242E7,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "RUB",
+    "currencyName" : "Russian ruble",
+    "currencySymbol" : "₽"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Turkmenistan",
+  "numericCode" : 795,
+  "capitalCity" : "Ashgabat",
+  "population" : 6031187,
+  "area" : 488100.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "TMT",
+    "currencyName" : "Turkmenistan manat",
+    "currencySymbol" : "m"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Cameroon",
+  "numericCode" : 120,
+  "capitalCity" : "Yaoundé",
+  "population" : 26545864,
+  "area" : 475442.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XAF",
+    "currencyName" : "Central African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Cook Islands",
+  "numericCode" : 184,
+  "capitalCity" : "Avarua",
+  "population" : 18100,
+  "area" : 236.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "CKD",
+    "currencyName" : "Cook Islands dollar",
+    "currencySymbol" : "$"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "NZD",
+    "currencyName" : "New Zealand dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Slovenia",
+  "numericCode" : 705,
+  "capitalCity" : "Ljubljana",
+  "population" : 2100126,
+  "area" : 20273.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Vanuatu",
+  "numericCode" : 548,
+  "capitalCity" : "Port Vila",
+  "population" : 307150,
+  "area" : 12189.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "VUV",
+    "currencyName" : "Vanuatu vatu",
+    "currencySymbol" : "Vt"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Saint Kitts and Nevis",
+  "numericCode" : 659,
+  "capitalCity" : "Basseterre",
+  "population" : 53192,
+  "area" : 261.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XCD",
+    "currencyName" : "Eastern Caribbean dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Uruguay",
+  "numericCode" : 858,
+  "capitalCity" : "Montevideo",
+  "population" : 3473727,
+  "area" : 181034.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "UYU",
+    "currencyName" : "Uruguayan peso",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Denmark",
+  "numericCode" : 208,
+  "capitalCity" : "Copenhagen",
+  "population" : 5831404,
+  "area" : 43094.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "DKK",
+    "currencyName" : "Danish krone",
+    "currencySymbol" : "kr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Philippines",
+  "numericCode" : 608,
+  "capitalCity" : "Manila",
+  "population" : 109581085,
+  "area" : 342353.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "PHP",
+    "currencyName" : "Philippine peso",
+    "currencySymbol" : "₱"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Palestine",
+  "numericCode" : 275,
+  "capitalCity" : "Ramallah",
+  "population" : 4803269,
+  "area" : 6220.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EGP",
+    "currencyName" : "Egyptian pound",
+    "currencySymbol" : "E£"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "ILS",
+    "currencyName" : "Israeli new shekel",
+    "currencySymbol" : "₪"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "JOD",
+    "currencyName" : "Jordanian dinar",
+    "currencySymbol" : "JD"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Pitcairn Islands",
+  "numericCode" : 612,
+  "capitalCity" : "Adamstown",
+  "population" : 56,
+  "area" : 47.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "NZD",
+    "currencyName" : "New Zealand dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "French Guiana",
+  "numericCode" : 254,
+  "capitalCity" : "Cayenne",
+  "population" : 254541,
+  "area" : 83534.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Italy",
+  "numericCode" : 380,
+  "capitalCity" : "Rome",
+  "population" : 59554023,
+  "area" : 301336.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Uzbekistan",
+  "numericCode" : 860,
+  "capitalCity" : "Tashkent",
+  "population" : 34232050,
+  "area" : 447400.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "UZS",
+    "currencyName" : "Uzbekistani soʻm",
+    "currencySymbol" : "so'm"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Dominica",
+  "numericCode" : 212,
+  "capitalCity" : "Roseau",
+  "population" : 71991,
+  "area" : 751.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XCD",
+    "currencyName" : "Eastern Caribbean dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Finland",
+  "numericCode" : 246,
+  "capitalCity" : "Helsinki",
+  "population" : 5530719,
+  "area" : 338424.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "South Korea",
+  "numericCode" : 410,
+  "capitalCity" : "Seoul",
+  "population" : 51780579,
+  "area" : 100210.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "KRW",
+    "currencyName" : "South Korean won",
+    "currencySymbol" : "₩"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Heard Island and McDonald Islands",
+  "numericCode" : 334,
+  "capitalCity" : null,
+  "population" : 0,
+  "area" : 412.0,
+  "currencies" : [ ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Faroe Islands",
+  "numericCode" : 234,
+  "capitalCity" : "Tórshavn",
+  "population" : 48865,
+  "area" : 1393.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "DKK",
+    "currencyName" : "Danish krone",
+    "currencySymbol" : "kr"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "FOK",
+    "currencyName" : "Faroese króna",
+    "currencySymbol" : "kr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Qatar",
+  "numericCode" : 634,
+  "capitalCity" : "Doha",
+  "population" : 2881060,
+  "area" : 11586.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "QAR",
+    "currencyName" : "Qatari riyal",
+    "currencySymbol" : "ر.ق"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "India",
+  "numericCode" : 356,
+  "capitalCity" : "New Delhi",
+  "population" : 1380004385,
+  "area" : 3287590.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "INR",
+    "currencyName" : "Indian rupee",
+    "currencySymbol" : "₹"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Mayotte",
+  "numericCode" : 175,
+  "capitalCity" : "Mamoudzou",
+  "population" : 226915,
+  "area" : 374.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Guadeloupe",
+  "numericCode" : 312,
+  "capitalCity" : "Basse-Terre",
+  "population" : 400132,
+  "area" : 1628.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Mozambique",
+  "numericCode" : 508,
+  "capitalCity" : "Maputo",
+  "population" : 31255435,
+  "area" : 801590.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MZN",
+    "currencyName" : "Mozambican metical",
+    "currencySymbol" : "MT"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Bouvet Island",
+  "numericCode" : 74,
+  "capitalCity" : null,
+  "population" : 0,
+  "area" : 49.0,
+  "currencies" : [ ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Yemen",
+  "numericCode" : 887,
+  "capitalCity" : "Sana'a",
+  "population" : 29825968,
+  "area" : 527968.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "YER",
+    "currencyName" : "Yemeni rial",
+    "currencySymbol" : "﷼"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Kosovo",
+  "numericCode" : null,
+  "capitalCity" : "Pristina",
+  "population" : 1775378,
+  "area" : 10908.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Taiwan",
+  "numericCode" : 158,
+  "capitalCity" : "Taipei",
+  "population" : 23503349,
+  "area" : 36193.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "TWD",
+    "currencyName" : "New Taiwan dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Bermuda",
+  "numericCode" : 60,
+  "capitalCity" : "Hamilton",
+  "population" : 63903,
+  "area" : 54.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BMD",
+    "currencyName" : "Bermudian dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Georgia",
+  "numericCode" : 268,
+  "capitalCity" : "Tbilisi",
+  "population" : 3714000,
+  "area" : 69700.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GEL",
+    "currencyName" : "lari",
+    "currencySymbol" : "₾"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Anguilla",
+  "numericCode" : 660,
+  "capitalCity" : "The Valley",
+  "population" : 13452,
+  "area" : 91.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XCD",
+    "currencyName" : "Eastern Caribbean dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Saint Vincent and the Grenadines",
+  "numericCode" : 670,
+  "capitalCity" : "Kingstown",
+  "population" : 110947,
+  "area" : 389.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XCD",
+    "currencyName" : "Eastern Caribbean dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Belize",
+  "numericCode" : 84,
+  "capitalCity" : "Belmopan",
+  "population" : 397621,
+  "area" : 22966.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BZD",
+    "currencyName" : "Belize dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Malawi",
+  "numericCode" : 454,
+  "capitalCity" : "Lilongwe",
+  "population" : 19129955,
+  "area" : 118484.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MWK",
+    "currencyName" : "Malawian kwacha",
+    "currencySymbol" : "MK"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Aruba",
+  "numericCode" : 533,
+  "capitalCity" : "Oranjestad",
+  "population" : 106766,
+  "area" : 180.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AWG",
+    "currencyName" : "Aruban florin",
+    "currencySymbol" : "ƒ"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Israel",
+  "numericCode" : 376,
+  "capitalCity" : "Jerusalem",
+  "population" : 9216900,
+  "area" : 20770.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "ILS",
+    "currencyName" : "Israeli new shekel",
+    "currencySymbol" : "₪"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Isle of Man",
+  "numericCode" : 833,
+  "capitalCity" : "Douglas",
+  "population" : 85032,
+  "area" : 572.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GBP",
+    "currencyName" : "British pound",
+    "currencySymbol" : "£"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "IMP",
+    "currencyName" : "Manx pound",
+    "currencySymbol" : "£"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Belarus",
+  "numericCode" : 112,
+  "capitalCity" : "Minsk",
+  "population" : 9398861,
+  "area" : 207600.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BYN",
+    "currencyName" : "Belarusian ruble",
+    "currencySymbol" : "Br"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Namibia",
+  "numericCode" : 516,
+  "capitalCity" : "Windhoek",
+  "population" : 2540916,
+  "area" : 825615.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "NAD",
+    "currencyName" : "Namibian dollar",
+    "currencySymbol" : "$"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "ZAR",
+    "currencyName" : "South African rand",
+    "currencySymbol" : "R"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Guatemala",
+  "numericCode" : 320,
+  "capitalCity" : "Guatemala City",
+  "population" : 16858333,
+  "area" : 108889.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GTQ",
+    "currencyName" : "Guatemalan quetzal",
+    "currencySymbol" : "Q"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Brazil",
+  "numericCode" : 76,
+  "capitalCity" : "Brasília",
+  "population" : 212559409,
+  "area" : 8515767.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BRL",
+    "currencyName" : "Brazilian real",
+    "currencySymbol" : "R$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Poland",
+  "numericCode" : 616,
+  "capitalCity" : "Warsaw",
+  "population" : 37950802,
+  "area" : 312679.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "PLN",
+    "currencyName" : "Polish złoty",
+    "currencySymbol" : "zł"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Maldives",
+  "numericCode" : 462,
+  "capitalCity" : "Malé",
+  "population" : 540542,
+  "area" : 300.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MVR",
+    "currencyName" : "Maldivian rufiyaa",
+    "currencySymbol" : ".ރ"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Singapore",
+  "numericCode" : 702,
+  "capitalCity" : "Singapore",
+  "population" : 5685807,
+  "area" : 710.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SGD",
+    "currencyName" : "Singapore dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Greenland",
+  "numericCode" : 304,
+  "capitalCity" : "Nuuk",
+  "population" : 56367,
+  "area" : 2166086.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "DKK",
+    "currencyName" : "krone",
+    "currencySymbol" : "kr."
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Guyana",
+  "numericCode" : 328,
+  "capitalCity" : "Georgetown",
+  "population" : 786559,
+  "area" : 214969.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GYD",
+    "currencyName" : "Guyanese dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "North Korea",
+  "numericCode" : 408,
+  "capitalCity" : "Pyongyang",
+  "population" : 25778815,
+  "area" : 120538.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "KPW",
+    "currencyName" : "North Korean won",
+    "currencySymbol" : "₩"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Ireland",
+  "numericCode" : 372,
+  "capitalCity" : "Dublin",
+  "population" : 4994724,
+  "area" : 70273.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Solomon Islands",
+  "numericCode" : 90,
+  "capitalCity" : "Honiara",
+  "population" : 686878,
+  "area" : 28896.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SBD",
+    "currencyName" : "Solomon Islands dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Gibraltar",
+  "numericCode" : 292,
+  "capitalCity" : "Gibraltar",
+  "population" : 33691,
+  "area" : 6.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GIP",
+    "currencyName" : "Gibraltar pound",
+    "currencySymbol" : "£"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Marshall Islands",
+  "numericCode" : 584,
+  "capitalCity" : "Majuro",
+  "population" : 59194,
+  "area" : 181.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Tunisia",
+  "numericCode" : 788,
+  "capitalCity" : "Tunis",
+  "population" : 11818618,
+  "area" : 163610.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "TND",
+    "currencyName" : "Tunisian dinar",
+    "currencySymbol" : "د.ت"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Tuvalu",
+  "numericCode" : 798,
+  "capitalCity" : "Funafuti",
+  "population" : 11792,
+  "area" : 26.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AUD",
+    "currencyName" : "Australian dollar",
+    "currencySymbol" : "$"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "TVD",
+    "currencyName" : "Tuvaluan dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Sint Maarten",
+  "numericCode" : 534,
+  "capitalCity" : "Philipsburg",
+  "population" : 40812,
+  "area" : 34.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "ANG",
+    "currencyName" : "Netherlands Antillean guilder",
+    "currencySymbol" : "ƒ"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Eritrea",
+  "numericCode" : 232,
+  "capitalCity" : "Asmara",
+  "population" : 5352000,
+  "area" : 117600.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "ERN",
+    "currencyName" : "Eritrean nakfa",
+    "currencySymbol" : "Nfk"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Samoa",
+  "numericCode" : 882,
+  "capitalCity" : "Apia",
+  "population" : 198410,
+  "area" : 2842.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "WST",
+    "currencyName" : "Samoan tālā",
+    "currencySymbol" : "T"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Dominican Republic",
+  "numericCode" : 214,
+  "capitalCity" : "Santo Domingo",
+  "population" : 10847904,
+  "area" : 48671.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "DOP",
+    "currencyName" : "Dominican peso",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Uganda",
+  "numericCode" : 800,
+  "capitalCity" : "Kampala",
+  "population" : 45741000,
+  "area" : 241550.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "UGX",
+    "currencyName" : "Ugandan shilling",
+    "currencySymbol" : "Sh"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Iraq",
+  "numericCode" : 368,
+  "capitalCity" : "Baghdad",
+  "population" : 40222503,
+  "area" : 438317.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "IQD",
+    "currencyName" : "Iraqi dinar",
+    "currencySymbol" : "ع.د"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Ukraine",
+  "numericCode" : 804,
+  "capitalCity" : "Kyiv",
+  "population" : 44134693,
+  "area" : 603500.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "UAH",
+    "currencyName" : "Ukrainian hryvnia",
+    "currencySymbol" : "₴"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Liberia",
+  "numericCode" : 430,
+  "capitalCity" : "Monrovia",
+  "population" : 5057677,
+  "area" : 111369.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "LRD",
+    "currencyName" : "Liberian dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Hong Kong",
+  "numericCode" : 344,
+  "capitalCity" : "City of Victoria",
+  "population" : 7500700,
+  "area" : 1104.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "HKD",
+    "currencyName" : "Hong Kong dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Nauru",
+  "numericCode" : 520,
+  "capitalCity" : "Yaren",
+  "population" : 10834,
+  "area" : 21.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AUD",
+    "currencyName" : "Australian dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Liechtenstein",
+  "numericCode" : 438,
+  "capitalCity" : "Vaduz",
+  "population" : 38137,
+  "area" : 160.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "CHF",
+    "currencyName" : "Swiss franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Spain",
+  "numericCode" : 724,
+  "capitalCity" : "Madrid",
+  "population" : 47351567,
+  "area" : 505992.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Turkey",
+  "numericCode" : 792,
+  "capitalCity" : "Ankara",
+  "population" : 84339067,
+  "area" : 783562.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "TRY",
+    "currencyName" : "Turkish lira",
+    "currencySymbol" : "₺"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "United States Minor Outlying Islands",
+  "numericCode" : 581,
+  "capitalCity" : "Washington DC",
+  "population" : 300,
+  "area" : 34.2,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Germany",
+  "numericCode" : 276,
+  "capitalCity" : "Berlin",
+  "population" : 83240525,
+  "area" : 357114.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Seychelles",
+  "numericCode" : 690,
+  "capitalCity" : "Victoria",
+  "population" : 98462,
+  "area" : 452.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SCR",
+    "currencyName" : "Seychellois rupee",
+    "currencySymbol" : "₨"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Australia",
+  "numericCode" : 36,
+  "capitalCity" : "Canberra",
+  "population" : 25687041,
+  "area" : 7692024.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AUD",
+    "currencyName" : "Australian dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Bulgaria",
+  "numericCode" : 100,
+  "capitalCity" : "Sofia",
+  "population" : 6927288,
+  "area" : 110879.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BGN",
+    "currencyName" : "Bulgarian lev",
+    "currencySymbol" : "лв"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Algeria",
+  "numericCode" : 12,
+  "capitalCity" : "Algiers",
+  "population" : 44700000,
+  "area" : 2381741.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "DZD",
+    "currencyName" : "Algerian dinar",
+    "currencySymbol" : "د.ج"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Angola",
+  "numericCode" : 24,
+  "capitalCity" : "Luanda",
+  "population" : 32866268,
+  "area" : 1246700.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AOA",
+    "currencyName" : "Angolan kwanza",
+    "currencySymbol" : "Kz"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Peru",
+  "numericCode" : 604,
+  "capitalCity" : "Lima",
+  "population" : 32971846,
+  "area" : 1285216.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "PEN",
+    "currencyName" : "Peruvian sol",
+    "currencySymbol" : "S/ "
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Chile",
+  "numericCode" : 152,
+  "capitalCity" : "Santiago",
+  "population" : 19116209,
+  "area" : 756102.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "CLP",
+    "currencyName" : "Chilean peso",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Nicaragua",
+  "numericCode" : 558,
+  "capitalCity" : "Managua",
+  "population" : 6624554,
+  "area" : 130373.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "NIO",
+    "currencyName" : "Nicaraguan córdoba",
+    "currencySymbol" : "C$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Zimbabwe",
+  "numericCode" : 716,
+  "capitalCity" : "Harare",
+  "population" : 14862927,
+  "area" : 390757.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "ZWL",
+    "currencyName" : "Zimbabwean dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Jersey",
+  "numericCode" : 832,
+  "capitalCity" : "Saint Helier",
+  "population" : 100800,
+  "area" : 116.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GBP",
+    "currencyName" : "British pound",
+    "currencySymbol" : "£"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "JEP",
+    "currencyName" : "Jersey pound",
+    "currencySymbol" : "£"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Benin",
+  "numericCode" : 204,
+  "capitalCity" : "Porto-Novo",
+  "population" : 12123198,
+  "area" : 112622.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XOF",
+    "currencyName" : "West African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Colombia",
+  "numericCode" : 170,
+  "capitalCity" : "Bogotá",
+  "population" : 50882884,
+  "area" : 1141748.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "COP",
+    "currencyName" : "Colombian peso",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Austria",
+  "numericCode" : 40,
+  "capitalCity" : "Vienna",
+  "population" : 8917205,
+  "area" : 83871.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Bahrain",
+  "numericCode" : 48,
+  "capitalCity" : "Manama",
+  "population" : 1701583,
+  "area" : 765.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BHD",
+    "currencyName" : "Bahraini dinar",
+    "currencySymbol" : ".د.ب"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Morocco",
+  "numericCode" : 504,
+  "capitalCity" : "Rabat",
+  "population" : 36910558,
+  "area" : 446550.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MAD",
+    "currencyName" : "Moroccan dirham",
+    "currencySymbol" : "د.م."
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Tanzania",
+  "numericCode" : 834,
+  "capitalCity" : "Dodoma",
+  "population" : 59734213,
+  "area" : 945087.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "TZS",
+    "currencyName" : "Tanzanian shilling",
+    "currencySymbol" : "Sh"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Grenada",
+  "numericCode" : 308,
+  "capitalCity" : "St. George's",
+  "population" : 112519,
+  "area" : 344.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XCD",
+    "currencyName" : "Eastern Caribbean dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "British Virgin Islands",
+  "numericCode" : 92,
+  "capitalCity" : "Road Town",
+  "population" : 30237,
+  "area" : 151.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "San Marino",
+  "numericCode" : 674,
+  "capitalCity" : "City of San Marino",
+  "population" : 33938,
+  "area" : 61.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Venezuela",
+  "numericCode" : 862,
+  "capitalCity" : "Caracas",
+  "population" : 28435943,
+  "area" : 916445.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "VES",
+    "currencyName" : "Venezuelan bolívar soberano",
+    "currencySymbol" : "Bs.S."
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Guinea-Bissau",
+  "numericCode" : 624,
+  "capitalCity" : "Bissau",
+  "population" : 1967998,
+  "area" : 36125.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XOF",
+    "currencyName" : "West African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Norfolk Island",
+  "numericCode" : 574,
+  "capitalCity" : "Kingston",
+  "population" : 2302,
+  "area" : 36.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AUD",
+    "currencyName" : "Australian dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Iceland",
+  "numericCode" : 352,
+  "capitalCity" : "Reykjavik",
+  "population" : 366425,
+  "area" : 103000.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "ISK",
+    "currencyName" : "Icelandic króna",
+    "currencySymbol" : "kr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Montserrat",
+  "numericCode" : 500,
+  "capitalCity" : "Plymouth",
+  "population" : 4922,
+  "area" : 102.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XCD",
+    "currencyName" : "Eastern Caribbean dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "United States",
+  "numericCode" : 840,
+  "capitalCity" : "Washington, D.C.",
+  "population" : 329484123,
+  "area" : 9372610.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Trinidad and Tobago",
+  "numericCode" : 780,
+  "capitalCity" : "Port of Spain",
+  "population" : 1399491,
+  "area" : 5130.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "TTD",
+    "currencyName" : "Trinidad and Tobago dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "France",
+  "numericCode" : 250,
+  "capitalCity" : "Paris",
+  "population" : 67391582,
+  "area" : 551695.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Martinique",
+  "numericCode" : 474,
+  "capitalCity" : "Fort-de-France",
+  "population" : 378243,
+  "area" : 1128.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Costa Rica",
+  "numericCode" : 188,
+  "capitalCity" : "San José",
+  "population" : 5094114,
+  "area" : 51100.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "CRC",
+    "currencyName" : "Costa Rican colón",
+    "currencySymbol" : "₡"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Belgium",
+  "numericCode" : 56,
+  "capitalCity" : "Brussels",
+  "population" : 11555997,
+  "area" : 30528.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Saint Martin",
+  "numericCode" : 663,
+  "capitalCity" : "Marigot",
+  "population" : 38659,
+  "area" : 53.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Papua New Guinea",
+  "numericCode" : 598,
+  "capitalCity" : "Port Moresby",
+  "population" : 8947027,
+  "area" : 462840.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "PGK",
+    "currencyName" : "Papua New Guinean kina",
+    "currencySymbol" : "K"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Micronesia",
+  "numericCode" : 583,
+  "capitalCity" : "Palikir",
+  "population" : 115021,
+  "area" : 702.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Antigua and Barbuda",
+  "numericCode" : 28,
+  "capitalCity" : "Saint John's",
+  "population" : 97928,
+  "area" : 442.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XCD",
+    "currencyName" : "Eastern Caribbean dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Cambodia",
+  "numericCode" : 116,
+  "capitalCity" : "Phnom Penh",
+  "population" : 16718971,
+  "area" : 181035.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "KHR",
+    "currencyName" : "Cambodian riel",
+    "currencySymbol" : "៛"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Jamaica",
+  "numericCode" : 388,
+  "capitalCity" : "Kingston",
+  "population" : 2961161,
+  "area" : 10991.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "JMD",
+    "currencyName" : "Jamaican dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Suriname",
+  "numericCode" : 740,
+  "capitalCity" : "Paramaribo",
+  "population" : 586634,
+  "area" : 163820.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SRD",
+    "currencyName" : "Surinamese dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Zambia",
+  "numericCode" : 894,
+  "capitalCity" : "Lusaka",
+  "population" : 18383956,
+  "area" : 752612.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "ZMW",
+    "currencyName" : "Zambian kwacha",
+    "currencySymbol" : "ZK"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Armenia",
+  "numericCode" : 51,
+  "capitalCity" : "Yerevan",
+  "population" : 2963234,
+  "area" : 29743.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AMD",
+    "currencyName" : "Armenian dram",
+    "currencySymbol" : "֏"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Turks and Caicos Islands",
+  "numericCode" : 796,
+  "capitalCity" : "Cockburn Town",
+  "population" : 38718,
+  "area" : 948.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Gabon",
+  "numericCode" : 266,
+  "capitalCity" : "Libreville",
+  "population" : 2225728,
+  "area" : 267668.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XAF",
+    "currencyName" : "Central African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Vietnam",
+  "numericCode" : 704,
+  "capitalCity" : "Hanoi",
+  "population" : 97338583,
+  "area" : 331212.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "VND",
+    "currencyName" : "Vietnamese đồng",
+    "currencySymbol" : "₫"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Djibouti",
+  "numericCode" : 262,
+  "capitalCity" : "Djibouti",
+  "population" : 988002,
+  "area" : 23200.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "DJF",
+    "currencyName" : "Djiboutian franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Guernsey",
+  "numericCode" : 831,
+  "capitalCity" : "St. Peter Port",
+  "population" : 62999,
+  "area" : 78.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GBP",
+    "currencyName" : "British pound",
+    "currencySymbol" : "£"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "GGP",
+    "currencyName" : "Guernsey pound",
+    "currencySymbol" : "£"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Saint Helena, Ascension and Tristan da Cunha",
+  "numericCode" : 654,
+  "capitalCity" : "Jamestown",
+  "population" : 53192,
+  "area" : 394.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GBP",
+    "currencyName" : "Pound sterling",
+    "currencySymbol" : "£"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "SHP",
+    "currencyName" : "Saint Helena pound",
+    "currencySymbol" : "£"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Greece",
+  "numericCode" : 300,
+  "capitalCity" : "Athens",
+  "population" : 10715549,
+  "area" : 131990.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "French Polynesia",
+  "numericCode" : 258,
+  "capitalCity" : "Papeetē",
+  "population" : 280904,
+  "area" : 4167.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XPF",
+    "currencyName" : "CFP franc",
+    "currencySymbol" : "₣"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Kuwait",
+  "numericCode" : 414,
+  "capitalCity" : "Kuwait City",
+  "population" : 4270563,
+  "area" : 17818.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "KWD",
+    "currencyName" : "Kuwaiti dinar",
+    "currencySymbol" : "د.ك"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Sierra Leone",
+  "numericCode" : 694,
+  "capitalCity" : "Freetown",
+  "population" : 7976985,
+  "area" : 71740.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SLE",
+    "currencyName" : "Leone",
+    "currencySymbol" : "Le"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Antarctica",
+  "numericCode" : 10,
+  "capitalCity" : null,
+  "population" : 1000,
+  "area" : 1.4E7,
+  "currencies" : [ ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Honduras",
+  "numericCode" : 340,
+  "capitalCity" : "Tegucigalpa",
+  "population" : 9904608,
+  "area" : 112492.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "HNL",
+    "currencyName" : "Honduran lempira",
+    "currencySymbol" : "L"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Mexico",
+  "numericCode" : 484,
+  "capitalCity" : "Mexico City",
+  "population" : 128932753,
+  "area" : 1964375.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MXN",
+    "currencyName" : "Mexican peso",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Nigeria",
+  "numericCode" : 566,
+  "capitalCity" : "Abuja",
+  "population" : 206139587,
+  "area" : 923768.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "NGN",
+    "currencyName" : "Nigerian naira",
+    "currencySymbol" : "₦"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Libya",
+  "numericCode" : 434,
+  "capitalCity" : "Tripoli",
+  "population" : 6871287,
+  "area" : 1759540.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "LYD",
+    "currencyName" : "Libyan dinar",
+    "currencySymbol" : "ل.د"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Thailand",
+  "numericCode" : 764,
+  "capitalCity" : "Bangkok",
+  "population" : 69799978,
+  "area" : 513120.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "THB",
+    "currencyName" : "Thai baht",
+    "currencySymbol" : "฿"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Central African Republic",
+  "numericCode" : 140,
+  "capitalCity" : "Bangui",
+  "population" : 4829764,
+  "area" : 622984.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XAF",
+    "currencyName" : "Central African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Paraguay",
+  "numericCode" : 600,
+  "capitalCity" : "Asunción",
+  "population" : 7132530,
+  "area" : 406752.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "PYG",
+    "currencyName" : "Paraguayan guaraní",
+    "currencySymbol" : "₲"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Timor-Leste",
+  "numericCode" : 626,
+  "capitalCity" : "Dili",
+  "population" : 1318442,
+  "area" : 14874.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "American Samoa",
+  "numericCode" : 16,
+  "capitalCity" : "Pago Pago",
+  "population" : 55197,
+  "area" : 199.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Senegal",
+  "numericCode" : 686,
+  "capitalCity" : "Dakar",
+  "population" : 16743930,
+  "area" : 196722.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XOF",
+    "currencyName" : "West African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Réunion",
+  "numericCode" : 638,
+  "capitalCity" : "Saint-Denis",
+  "population" : 840974,
+  "area" : 2511.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Saint Lucia",
+  "numericCode" : 662,
+  "capitalCity" : "Castries",
+  "population" : 183629,
+  "area" : 616.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XCD",
+    "currencyName" : "Eastern Caribbean dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Afghanistan",
+  "numericCode" : 4,
+  "capitalCity" : "Kabul",
+  "population" : 40218234,
+  "area" : 652230.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AFN",
+    "currencyName" : "Afghan afghani",
+    "currencySymbol" : "؋"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Bhutan",
+  "numericCode" : 64,
+  "capitalCity" : "Thimphu",
+  "population" : 771612,
+  "area" : 38394.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BTN",
+    "currencyName" : "Bhutanese ngultrum",
+    "currencySymbol" : "Nu."
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "INR",
+    "currencyName" : "Indian rupee",
+    "currencySymbol" : "₹"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Myanmar",
+  "numericCode" : 104,
+  "capitalCity" : "Naypyidaw",
+  "population" : 54409794,
+  "area" : 676578.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MMK",
+    "currencyName" : "Burmese kyat",
+    "currencySymbol" : "Ks"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Equatorial Guinea",
+  "numericCode" : 226,
+  "capitalCity" : "Malabo",
+  "population" : 1402985,
+  "area" : 28051.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XAF",
+    "currencyName" : "Central African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Cocos (Keeling) Islands",
+  "numericCode" : 166,
+  "capitalCity" : "West Island",
+  "population" : 544,
+  "area" : 14.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "AUD",
+    "currencyName" : "Australian dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Syria",
+  "numericCode" : 760,
+  "capitalCity" : "Damascus",
+  "population" : 17500657,
+  "area" : 185180.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "SYP",
+    "currencyName" : "Syrian pound",
+    "currencySymbol" : "£"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Croatia",
+  "numericCode" : 191,
+  "capitalCity" : "Zagreb",
+  "population" : 4047200,
+  "area" : 56594.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Puerto Rico",
+  "numericCode" : 630,
+  "capitalCity" : "San Juan",
+  "population" : 3194034,
+  "area" : 8870.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Caribbean Netherlands",
+  "numericCode" : 535,
+  "capitalCity" : "Kralendijk",
+  "population" : 25987,
+  "area" : 328.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Bolivia",
+  "numericCode" : 68,
+  "capitalCity" : "Sucre",
+  "population" : 11673029,
+  "area" : 1098581.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BOB",
+    "currencyName" : "Bolivian boliviano",
+    "currencySymbol" : "Bs."
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Saint Pierre and Miquelon",
+  "numericCode" : 666,
+  "capitalCity" : "Saint-Pierre",
+  "population" : 6069,
+  "area" : 242.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "DR Congo",
+  "numericCode" : 180,
+  "capitalCity" : "Kinshasa",
+  "population" : 108407721,
+  "area" : 2344858.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "CDF",
+    "currencyName" : "Congolese franc",
+    "currencySymbol" : "FC"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Argentina",
+  "numericCode" : 32,
+  "capitalCity" : "Buenos Aires",
+  "population" : 45376763,
+  "area" : 2780400.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "ARS",
+    "currencyName" : "Argentine peso",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Sri Lanka",
+  "numericCode" : 144,
+  "capitalCity" : "Sri Jayawardenepura Kotte",
+  "population" : 21919000,
+  "area" : 65610.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "LKR",
+    "currencyName" : "Sri Lankan rupee",
+    "currencySymbol" : "Rs  රු"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Chad",
+  "numericCode" : 148,
+  "capitalCity" : "N'Djamena",
+  "population" : 16425859,
+  "area" : 1284000.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XAF",
+    "currencyName" : "Central African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Curaçao",
+  "numericCode" : 531,
+  "capitalCity" : "Willemstad",
+  "population" : 155014,
+  "area" : 444.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "ANG",
+    "currencyName" : "Netherlands Antillean guilder",
+    "currencySymbol" : "ƒ"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Ecuador",
+  "numericCode" : 218,
+  "capitalCity" : "Quito",
+  "population" : 17643060,
+  "area" : 276841.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Lesotho",
+  "numericCode" : 426,
+  "capitalCity" : "Maseru",
+  "population" : 2142252,
+  "area" : 30355.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "LSL",
+    "currencyName" : "Lesotho loti",
+    "currencySymbol" : "L"
+  }, {
+    "currencyId" : null,
+    "currencyCode" : "ZAR",
+    "currencyName" : "South African rand",
+    "currencySymbol" : "R"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Gambia",
+  "numericCode" : 270,
+  "capitalCity" : "Banjul",
+  "population" : 2416664,
+  "area" : 10689.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GMD",
+    "currencyName" : "dalasi",
+    "currencySymbol" : "D"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Slovakia",
+  "numericCode" : 703,
+  "capitalCity" : "Bratislava",
+  "population" : 5458827,
+  "area" : 49037.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Malaysia",
+  "numericCode" : 458,
+  "capitalCity" : "Kuala Lumpur",
+  "population" : 32365998,
+  "area" : 330803.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "MYR",
+    "currencyName" : "Malaysian ringgit",
+    "currencySymbol" : "RM"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Norway",
+  "numericCode" : 578,
+  "capitalCity" : "Oslo",
+  "population" : 5379475,
+  "area" : 323802.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "NOK",
+    "currencyName" : "Norwegian krone",
+    "currencySymbol" : "kr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Ghana",
+  "numericCode" : 288,
+  "capitalCity" : "Accra",
+  "population" : 31072945,
+  "area" : 238533.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "GHS",
+    "currencyName" : "Ghanaian cedi",
+    "currencySymbol" : "₵"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Switzerland",
+  "numericCode" : 756,
+  "capitalCity" : "Bern",
+  "population" : 8654622,
+  "area" : 41284.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "CHF",
+    "currencyName" : "Swiss franc",
+    "currencySymbol" : "Fr."
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Hungary",
+  "numericCode" : 348,
+  "capitalCity" : "Budapest",
+  "population" : 9749763,
+  "area" : 93028.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "HUF",
+    "currencyName" : "Hungarian forint",
+    "currencySymbol" : "Ft"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Vatican City",
+  "numericCode" : 336,
+  "capitalCity" : "Vatican City",
+  "population" : 451,
+  "area" : 0.44,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Netherlands",
+  "numericCode" : 528,
+  "capitalCity" : "Amsterdam",
+  "population" : 16655799,
+  "area" : 41850.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Burkina Faso",
+  "numericCode" : 854,
+  "capitalCity" : "Ouagadougou",
+  "population" : 20903278,
+  "area" : 272967.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XOF",
+    "currencyName" : "West African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Bangladesh",
+  "numericCode" : 50,
+  "capitalCity" : "Dhaka",
+  "population" : 164689383,
+  "area" : 147570.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BDT",
+    "currencyName" : "Bangladeshi taka",
+    "currencySymbol" : "৳"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Niue",
+  "numericCode" : 570,
+  "capitalCity" : "Alofi",
+  "population" : 1470,
+  "area" : 260.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "NZD",
+    "currencyName" : "New Zealand dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Ivory Coast",
+  "numericCode" : 384,
+  "capitalCity" : "Yamoussoukro",
+  "population" : 26378275,
+  "area" : 322463.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "XOF",
+    "currencyName" : "West African CFA franc",
+    "currencySymbol" : "Fr"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Monaco",
+  "numericCode" : 492,
+  "capitalCity" : "Monaco",
+  "population" : 39244,
+  "area" : 2.02,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Cayman Islands",
+  "numericCode" : 136,
+  "capitalCity" : "George Town",
+  "population" : 65720,
+  "area" : 264.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "KYD",
+    "currencyName" : "Cayman Islands dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Ethiopia",
+  "numericCode" : 231,
+  "capitalCity" : "Addis Ababa",
+  "population" : 114963583,
+  "area" : 1104300.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "ETB",
+    "currencyName" : "Ethiopian birr",
+    "currencySymbol" : "Br"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Tajikistan",
+  "numericCode" : 762,
+  "capitalCity" : "Dushanbe",
+  "population" : 9537642,
+  "area" : 143100.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "TJS",
+    "currencyName" : "Tajikistani somoni",
+    "currencySymbol" : "ЅМ"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Bosnia and Herzegovina",
+  "numericCode" : 70,
+  "capitalCity" : "Sarajevo",
+  "population" : 3280815,
+  "area" : 51209.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "BAM",
+    "currencyName" : "Bosnia and Herzegovina convertible mark",
+    "currencySymbol" : "KM"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Saint Barthélemy",
+  "numericCode" : 652,
+  "capitalCity" : "Gustavia",
+  "population" : 4255,
+  "area" : 21.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "EUR",
+    "currencyName" : "Euro",
+    "currencySymbol" : "€"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "China",
+  "numericCode" : 156,
+  "capitalCity" : "Beijing",
+  "population" : 1402112000,
+  "area" : 9706961.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "CNY",
+    "currencyName" : "Chinese yuan",
+    "currencySymbol" : "¥"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+}, {
+  "id" : null,
+  "countryName" : "Palau",
+  "numericCode" : 585,
+  "capitalCity" : "Ngerulmud",
+  "population" : 18092,
+  "area" : 459.0,
+  "currencies" : [ {
+    "currencyId" : null,
+    "currencyCode" : "USD",
+    "currencyName" : "United States dollar",
+    "currencySymbol" : "$"
+  } ],
+  "createdAt" : null,
+  "updatedAt" : null
+} ]
