@@ -7,9 +7,12 @@ import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
-import jakarta.validation.constraints.Size; // Para validar a lista de DTOs aninhados
+import jakarta.validation.constraints.Size; 
 
 public class CountryDTO {
+
+// DTO para representar um país, incluindo informações como nome, código numérico, capital, população, área e moedas.
+// Ele inclui anotações de validação para garantir que os dados atendam aos requisitos especificados do Banco de Dados.
 
     private Integer id;
     @NotBlank(message = "Country name cannot be blank")
@@ -28,7 +31,7 @@ public class CountryDTO {
     @Positive(message = "Area must be a positive number")
     private Float area;
 
-    @Valid // Garante que os DTOs na lista também sejam validados
+    @Valid // Anotação para validar a lista de moedas, garantindo que cada moeda na lista atenda às suas próprias regras de validação.
     private List<CurrencyDTO> currencies = new ArrayList<>();
 
     private String createdAt;
@@ -47,7 +50,6 @@ public class CountryDTO {
         this.currencies = currencies;
     }
 
-    // Getters e Setters
     public Integer getId() {
         return id;
     }

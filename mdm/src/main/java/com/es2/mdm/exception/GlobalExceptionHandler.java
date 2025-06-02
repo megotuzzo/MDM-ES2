@@ -8,6 +8,8 @@ import org.springframework.web.context.request.WebRequest;
 
 import jakarta.persistence.EntityNotFoundException;
 
+// Classe GlobalExceptionHandler para tratar exceções de forma global na aplicação
+// Ela intercepta exceções do tipo EntityNotFoundException e retorna uma resposta HTTP 404 Not Found
 @ControllerAdvice
 public class GlobalExceptionHandler {
 

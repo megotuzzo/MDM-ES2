@@ -20,14 +20,20 @@ import jakarta.persistence.EntityNotFoundException;
 @Service
 public class CountryService {
 
+// Serviço responsável por gerenciar as operações CRUD relacionadas a países.
+// Ele utiliza o repositório CountryRepository para interagir com o banco de dados e realizar operações de criação, leitura, atualização e exclusão de países.
+
     private final CountryRepository countryRepository;
-    private static final DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME;
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME; // Formato de data e hora ISO
 
     @Autowired
     public CountryService(CountryRepository countryRepository) {
         this.countryRepository = countryRepository;
     }
 
+    // Cria um novo país no banco de dados.
+    // O método é anotado com @Transactional para garantir que a operação seja executada dentro de uma transação.
+    // Este método recebe um CountryDTO, converte-o em uma entidade Country, salva no repositório e retorna o CountryDTO salvo.
     @Transactional
     public CountryDTO createCountry(CountryDTO countryDTO) {
         Country country = convertToEntity(countryDTO);
@@ -35,6 +41,9 @@ public class CountryService {
         return convertToDTO(savedCountry);
     }
 
+    // Obtém todos os países do banco de dados.
+    // O método é anotado com @Transactional(readOnly = true) para indicar que é uma operação de leitura.
+    // Ele busca todos os países do repositório, converte cada entidade Country em CountryDTO e retorna uma lista de CountryDTOs.
     @Transactional(readOnly = true)
     public List<CountryDTO> getAllCountries() {
         return countryRepository.findAll().stream()
@@ -42,6 +51,11 @@ public class CountryService {
                 .collect(Collectors.toList());
     }
 
+    // Obtém um país pelo ID.
+    // O método é anotado com @Transactional(readOnly = true) para indicar que é uma operação de leitura.
+    // Ele busca o país pelo ID no repositório, converte a entidade Country em CountryDTO e retorna o CountryDTO.
+    // Se o país não for encontrado, lança uma EntityNotFoundException.
+    // O método utiliza o Optional para lidar com a possibilidade de o país não existir.
     @Transactional(readOnly = true)
     public CountryDTO getCountryById(Integer id) {
         Country country = countryRepository.findById(id)
@@ -49,6 +63,12 @@ public class CountryService {
         return convertToDTO(country);
     }
 
+    // Atualiza um país existente.
+    // O método é anotado com @Transactional para garantir que a operação seja executada dentro de uma transação.
+    // Ele busca o país pelo ID, atualiza os campos com os valores do CountryDTO fornecido, atualiza as moedas associadas e salva o país atualizado no repositório.
+    // Se o país não for encontrado, lança uma EntityNotFoundException.
+    // O método também substitui as moedas existentes por novas moedas.
+    // O método utiliza o Optional para lidar com a possibilidade de o país não existir.
     @Transactional
     public CountryDTO updateCountry(Integer id, CountryDTO countryDTO) {
         Country existingCountry = countryRepository.findById(id)
@@ -61,19 +81,23 @@ public class CountryService {
         existingCountry.setPopulation(countryDTO.getPopulation());
         existingCountry.setArea(countryDTO.getArea());
 
-        // Atualizar moedas (substituí as existestes, sem tratamento para ficar mais simples)
-        existingCountry.getCurrencies().clear();
+        // Atualizar moedas (substituí as existestes, sem tratamento de duplicidade)
+        // Limpa as moedas existentes antes de adicionar as novas
+        existingCountry.getCurrencies().clear();    
         if (countryDTO.getCurrencies() != null) {
             countryDTO.getCurrencies().forEach(currencyDTO -> {
                 Currency currency = convertToEntity(currencyDTO, existingCountry);
                 existingCountry.addCurrency(currency);
             });
         }
-
         Country updatedCountry = countryRepository.save(existingCountry);
         return convertToDTO(updatedCountry);
     }
 
+    // Deleta um país pelo ID.
+    // Ele verifica se o país existe no repositório pelo ID fornecido.
+    // Se o país não for encontrado, lança uma EntityNotFoundException.
+    // Ele então deleta o país do repositório.
     @Transactional
     public void deleteCountry(Integer id) {
         if (!countryRepository.existsById(id)) {
@@ -82,21 +106,27 @@ public class CountryService {
         countryRepository.deleteById(id);
     }
 
+
+    // Processa uma lista de CountryDTOs recebidos do DEM e salva ou atualiza os países no banco de dados.
+    // O método verifica se a lista está vazia ou nula e retorna imediatamente se for o caso.
+    // Para cada CountryDTO na lista, ele verifica se já existe um país com o mesmo código numérico.
+    // Se existir, atualiza os campos do país existente com os valores do CountryDTO.
+    // Se não existir, cria um novo país a partir do CountryDTO e o salva no repositório.
     @Transactional
     public void processAndSaveCountries(List<CountryDTO> countryDTOs) {
-        if (countryDTOs == null || countryDTOs.isEmpty()) {
+        if (countryDTOs == null || countryDTOs.isEmpty()) { // Verifica se a lista de CountryDTOs está vazia ou nula
             return;
         }
 
-        for (CountryDTO dto : countryDTOs) {
+        for (CountryDTO dto : countryDTOs) {    // Para cada CountryDTO na lista, verifica se já existe um país com o mesmo código numérico
             Optional<Country> existingCountryOpt = Optional.empty();
             if (dto.getNumericCode() != null) { 
                 existingCountryOpt = countryRepository.findByNumericCode(dto.getNumericCode());
 
             } 
-            
+
             Country countryToSave;
-            if (existingCountryOpt.isPresent()) { //se ja existe um país com o mesmo código numérico, atualiza o país
+            if (existingCountryOpt.isPresent()) { //Se ja existe um país com o mesmo código numérico, atualiza o país
                 countryToSave = existingCountryOpt.get();
                 // Atualiza os campos de countryToSave com os valores de dto
                 countryToSave.setCountryName(dto.getCountryName());
@@ -116,7 +146,7 @@ public class CountryService {
         }
     }
 
-    //conversao entre entidades e DTOs
+    //Métodos de conversão de entidades entre DTO's e modelos.
     private CountryDTO convertToDTO(Country country) {
         CountryDTO dto = new CountryDTO();
         dto.setId(country.getId());

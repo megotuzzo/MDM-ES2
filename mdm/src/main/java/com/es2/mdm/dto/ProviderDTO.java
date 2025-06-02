@@ -1,15 +1,20 @@
 package com.es2.mdm.dto;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
-import org.hibernate.validator.constraints.URL; 
+import org.hibernate.validator.constraints.URL;
 
-import java.time.LocalDateTime;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size; 
+
 
 public class ProviderDTO {
 
+// DTO para representar um provedor de dados no MDM (Master Data Management).
+// Ele inclui informações como ID, nome, categoria, URL da API, descrição e timestamps de criação e atualização.
+// Ele é usado para comunicar os detalhes do provedor de dados para o DEM.
+
     private Integer id;
 
+    // Anotações de validação para garantir que os dados atendam aos requisitos especificados do Banco de Dados.
     @NotBlank(message = "Provider name cannot be blank")
     @Size(max = 255, message = "Provider name must be less than 100 characters")
     private String name;

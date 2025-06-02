@@ -15,9 +15,13 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
+//
 @Entity
 @Table(name = "currency")
 public class Currency {
+
+// Classe Currency representa uma moeda, incluindo informações como código, nome, símbolo e o país ao qual pertence.
+// Ela inclui anotações JPA para mapear a classe como uma entidade persistente e definir as colunas do banco de dados.
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -55,7 +59,6 @@ public class Currency {
         this.country = country;
     }
 
-    // Getters e Setters
     public Integer getCurrencyId() {
         return currencyId;
     }
@@ -111,6 +114,4 @@ public class Currency {
     public void setUpdatedAt(LocalDateTime updatedAt) {
         this.updatedAt = updatedAt;
     }
-
-    // toString, equals, hashCode (opcional, mas recomendado)
 }

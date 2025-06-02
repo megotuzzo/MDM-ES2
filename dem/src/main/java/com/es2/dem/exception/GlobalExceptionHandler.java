@@ -8,6 +8,9 @@ import org.springframework.web.context.request.WebRequest;
 
 import jakarta.persistence.EntityNotFoundException;
 
+// Exceção global para tratar erros de entidade não encontrada no DEM.
+// Esta classe intercepta exceções lançadas em qualquer controlador do DEM e retorna uma resposta adequada.
+
 @ControllerAdvice
 public class GlobalExceptionHandler {
 

@@ -21,6 +21,11 @@ import jakarta.persistence.Table;
 @Table(name = "country")
 public class Country {
 
+// Classe Country representa um país, incluindo informações como nome, código numérico, capital, população, área e moedas.
+// Ela inclui anotações JPA para mapear a classe como uma entidade persistente e definir as colunas do banco de dados.
+// A classe também possui relacionamentos com a entidade Currency: um país pode ter várias moedas associadas a ele.
+// As anotações @CreationTimestamp e @UpdateTimestamp são usadas para gerenciar automaticamente os timestamps de criação e atualização.
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "CountryID")
@@ -41,7 +46,7 @@ public class Country {
     @Column(name = "Area")
     private Float area;
 
-    // "mappedBy = "country"" indica que a entidade Currency gerencia o relacionamento (com a FK CountryID).
+    // Relacionamento OneToMany com a entidade Currency
     @OneToMany(mappedBy = "country", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private List<Currency> currencies = new ArrayList<>();
 
@@ -64,7 +69,6 @@ public class Country {
         this.area = area;
     }
 
-    // Getters e Setters
     public Integer getId() {
         return id;
     }
@@ -149,6 +153,4 @@ public class Country {
     public void setUpdatedAt(LocalDateTime updatedAt) {
         this.updatedAt = updatedAt;
     }
-
-    // toString, equals, hashCode (opcional, mas recomendado)
 }

@@ -1,15 +1,31 @@
 package com.es2.dem.model; 
 
-import com.es2.dem.enums.IngestionStatus; 
-import jakarta.persistence.*;
+import java.time.LocalDateTime;
+
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import java.time.LocalDateTime;
+import com.es2.dem.enums.IngestionStatus;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "ingestion") 
 public class Ingestion {
+
+// Classe que representa uma solicitação de ingestão de dados no DEM.
+// Ela contém informações sobre o provedor MDM, o status da ingestão, os caminhos dos dados brutos e transformados,
+// a URL de sincronização do MDM, mensagens de status e timestamps de criação e atualização.
+// A classe é anotada com @Entity para indicar que é uma entidade JPA e @Table para especificar o nome da tabela no banco de dados.
+// A classe também possui anotações para mapear os campos para colunas do banco de dados, incluindo o uso de @Lob para campos de texto longo.
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -1,10 +1,16 @@
 package com.es2.dem.dto;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.URL;
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
 public class IngestionRequestDTO {
+
+// DTO para representar uma solicitação de ingestão de dados no DEM.
+// Ele inclui informações como ID do provedor MDM e URL de sincronização.
+// Ele é usado para transferir dados entre a camada de apresentação e a camada de serviço.
+// Inclui validações para garantir que os dados sejam consistentes e atendam aos requisitos do sistema.
 
     @NotNull(message = "Provider id cannot be blank")
     private Integer mdmProviderId;
@@ -21,7 +27,6 @@ public class IngestionRequestDTO {
         this.mdmSyncUrl = mdmSyncUrl;
     }
 
-    // Getters e Setters
     public Integer getMdmProviderId() {
         return mdmProviderId;
     }

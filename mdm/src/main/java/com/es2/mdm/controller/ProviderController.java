@@ -1,22 +1,36 @@
 package com.es2.mdm.controller;
 
-import com.es2.mdm.dto.ProviderDTO;
-import com.es2.mdm.service.ProviderService;
-import jakarta.validation.Valid;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
+import com.es2.mdm.dto.ProviderDTO;
+import com.es2.mdm.service.ProviderService;
+
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/mdm/api/providers") 
 public class ProviderController {
 
+// Controller responsável por gerenciar provedores de dados no MDM (Master Data Management).
+// Ele fornece endpoints para criar, listar, obter, atualizar e excluir provedores de dados.
+// Ele utiliza o ProviderService para realizar as operações de negócios relacionadas aos provedores.
+// As operações são realizadas através de requisições HTTP, onde cada método corresponde a um endpoint específico.
+
     private final ProviderService providerService;
 
-    @Autowired
+    @Autowired 
     public ProviderController(ProviderService providerService) {
         this.providerService = providerService;
     }

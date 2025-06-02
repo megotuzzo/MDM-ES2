@@ -2,12 +2,16 @@ package com.es2.dem.dto;
 
 public class IngestionDTO {
 
+// DTO para representar um trabalho de ingestão de dados no DEM.
+// Ele inclui informações como ID, ID do provedor MDM, status do trabalho, caminhos para os dados brutos e transformados,
+// mensagens de status e timestamps de criação e atualização.
+// Ele é usado para transferir dados entre a camada de apresentação e a camada de serviço.
+
     private Integer id;
     private Integer mdmProviderId;
     private String status; 
     private String rawDataPath;
     private String transformedDataPath;
-    // mdmSyncUrl ???
     private String statusMessage;
     private String createdAt; 
     private String updatedAt; 
@@ -26,7 +30,6 @@ public class IngestionDTO {
         this.updatedAt = updatedAt;
     }
 
-    // Getters e Setters
     public Integer getId() {
         return id;
     }

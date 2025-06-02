@@ -2,6 +2,10 @@ package com.es2.dem.dto;
 
 public class CurrencyDTO {
 
+// DTO para representar uma moeda, incluindo informações como ID, código, nome e símbolo.
+// Ele é usado para transferir dados entre a camada de apresentação e a camada de serviço.
+// Inclui construtores, getters e setters para facilitar a manipulação dos dados da moeda.
+
     private Integer currencyId;
     private String currencyCode;
     private String currencyName;
@@ -17,7 +21,6 @@ public class CurrencyDTO {
         this.currencySymbol = currencySymbol;
     }
 
-    // Getters e Setters
     public Integer getCurrencyId() {
         return currencyId;
     }

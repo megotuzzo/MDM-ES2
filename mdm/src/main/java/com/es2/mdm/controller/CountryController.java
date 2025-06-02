@@ -23,6 +23,11 @@ import jakarta.validation.Valid;
 @RequestMapping("/countries")
 public class CountryController {
 
+// Controller responsável por gerenciar países no MDM.
+// Ele fornece endpoints para criar, listar, obter, atualizar e excluir países.
+// Ele utiliza o CountryService para realizar as operações de negócios relacionadas aos países.
+// As operações são realizadas através de requisições HTTP, onde cada método corresponde a um endpoint específico.
+
     private final CountryService countryService;
 
     @Autowired
@@ -31,7 +36,8 @@ public class CountryController {
     }
 
     /**
-     * Cria um novo país. Endpoint: POST /countries Body: CountryDTO
+     * Cria um novo país. Endpoint: POST /countries 
+     * Body: CountryDTO
      */
     @PostMapping
     public ResponseEntity<CountryDTO> createCountry(@Valid @RequestBody CountryDTO countryDTO) {
@@ -53,7 +59,7 @@ public class CountryController {
      */
     @GetMapping("/{id}")
     public ResponseEntity<CountryDTO> getCountryById(@PathVariable Integer id) {
-        CountryDTO countryDTO = countryService.getCountryById(id); // Se lançar EntityNotFoundException, o ControllerAdvice pega.
+        CountryDTO countryDTO = countryService.getCountryById(id); 
         return ResponseEntity.ok(countryDTO);
     }
 
@@ -76,7 +82,7 @@ public class CountryController {
         return ResponseEntity.noContent().build(); // HTTP 204 No Content
     }
     /**
-     * Recebe uma lista de países processados. Endpoint: POST /countries/callback
+     * Recebe uma lista de países processados pelo DEM. Endpoint: POST /countries/callback
      * Body: List<CountryDTO>
      */
     @PostMapping("/callback")

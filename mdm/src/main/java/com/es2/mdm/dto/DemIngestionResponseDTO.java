@@ -1,7 +1,13 @@
 package com.es2.mdm.dto;
 
-// Espelha os IngestionDTO do DEM
+// Espelha o IngestionDTO do DEM
 public class DemIngestionResponseDTO {
+
+// DTO para representar a resposta de ingestão de dados do MDM (Master Data Management).
+// Ele inclui o ID da ingestão, o ID do provedor MDM, o status da ingestão,
+// os caminhos dos dados brutos e transformados, a mensagem de status e os timestamps de criação e atualização.
+// Ele é usado para comunicar o resultado da ingestão de dados do MDM para o DEM.
+
     private Integer id;
     private Integer mdmProviderId;
     private String status;

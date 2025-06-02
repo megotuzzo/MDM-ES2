@@ -2,11 +2,15 @@ package com.es2.mdm.dto;
 
 public class CurrencyDTO {
 
+// DTO para representar uma moeda, já ela possui diferentes propriedades
+// Inclui informações como ID, código, nome e símbolo da moeda.
+
     private Integer currencyId;
     private String currencyCode;
     private String currencyName;
     private String currencySymbol;
 
+    
     public CurrencyDTO() {
     }
 
@@ -17,7 +21,7 @@ public class CurrencyDTO {
         this.currencySymbol = currencySymbol;
     }
 
-    // Getters e Setters
+
     public Integer getCurrencyId() {
         return currencyId;
     }
