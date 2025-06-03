@@ -196,7 +196,7 @@ public class IngestionService {
         ingestion.setStatusMessage("Transformando dados..."); 
         ingestionRepository.save(ingestion);
 
-        List<CountryDTO> transformedCountriesList = null; 
+        List<CountryDTO> transformedCountriesList = new ArrayList<>(); 
 
         try {   
             // Usa o ObjectMapper para ler o conteúdo JSON do arquivo
@@ -209,7 +209,6 @@ public class IngestionService {
                     new TypeReference<List<Map<String, Object>>>() {});
 
             // Transformar Dados Brutos em CountryDTO
-            List<CountryDTO> transformedCountries = new ArrayList<>();
             for (Map<String, Object> rawCountryMap : rawCountriesData) {
                 JsonNode rawCountryNode = objectMapper.convertValue(rawCountryMap, JsonNode.class);
                 CountryDTO mdmCountryDTO = new CountryDTO(); 
@@ -253,7 +252,7 @@ public class IngestionService {
                 }
                 transformedCountriesList.add(mdmCountryDTO);
             }
-            logger.info("{} países transformados para Ingestion ID: {}", transformedCountries.size(), ingestion.getId());
+            logger.info("{} países transformados para Ingestion ID: {}", transformedCountriesList.size(), ingestion.getId());
 
             // Salvar dados transformados em arquivo com nome baseado no ID de ingestão e timestamp
             String timestamp = LocalDateTime.now().format(fileTimestampFormatter);
@@ -263,7 +262,7 @@ public class IngestionService {
             Path transformedFilePath = transformedDataDirectory.resolve(transformedFileName);
 
             // Escreve a lista de CountryDTO transformados no arquivo JSON
-            objectMapper.writerWithDefaultPrettyPrinter().writeValue(transformedFilePath.toFile(), transformedCountries);
+            objectMapper.writerWithDefaultPrettyPrinter().writeValue(transformedFilePath.toFile(), transformedCountriesList);
             logger.info("Dados transformados salvos em: {}", transformedFilePath.toString());
 
             // Atualiza o registro de ingestão com o caminho dos dados transformados e status

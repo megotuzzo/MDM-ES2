@@ -118,15 +118,19 @@ public class CountryService {
             return;
         }
 
-        for (CountryDTO dto : countryDTOs) {    // Para cada CountryDTO na lista, verifica se já existe um país com o mesmo código numérico
+        for (CountryDTO dto : countryDTOs) {    
             Optional<Country> existingCountryOpt = Optional.empty();
-            if (dto.getNumericCode() != null) { 
+
+            if (dto.getNumericCode() != null) {     // Para cada CountryDTO na lista, verifica se já existe um país com o mesmo código numérico
                 existingCountryOpt = countryRepository.findByNumericCode(dto.getNumericCode());
 
             } 
+            if (dto.getCountryName() != null && existingCountryOpt.isEmpty()) { // Se não encontrou pelo código numérico, tenta pelo nome do país
+                existingCountryOpt = countryRepository.findByCountryName(dto.getCountryName());
+            }
 
             Country countryToSave;
-            if (existingCountryOpt.isPresent()) { //Se ja existe um país com o mesmo código numérico, atualiza o país
+            if (existingCountryOpt.isPresent()) { //Se ja existe um país com o mesmo código numérico e nome, atualiza o país
                 countryToSave = existingCountryOpt.get();
                 // Atualiza os campos de countryToSave com os valores de dto
                 countryToSave.setCountryName(dto.getCountryName());

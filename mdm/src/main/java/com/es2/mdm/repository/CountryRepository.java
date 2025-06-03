@@ -11,4 +11,5 @@ import com.es2.mdm.model.Country;
 @Repository
 public interface CountryRepository extends JpaRepository<Country, Integer> {
     Optional<Country> findByNumericCode(Integer numericCode);
+    Optional<Country> findByCountryName(String countryName); 
 }
