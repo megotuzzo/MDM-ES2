@@ -1,5 +1,9 @@
 package com.es2.mdm.service;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -103,6 +107,36 @@ public class DemIntegrationService {
         } catch (RestClientException e) {
             logger.error("Erro de comunicação ao consultar status no DEM para job {}: {}", demJobId, e);
             return null;
+        }
+    }
+
+
+    // Método que consulta todos os trabalhos de ingestão no DEM.
+    // Ele envia uma solicitação GET para o endpoint do DEM que lista todos os trabalhos de ingestão.
+    // Retorna: Uma lista de DemIngestionResponseDTO contendo os detalhes e status dos trabalhos de ingestão.
+    // Se a consulta falhar, retorna uma lista vazia ou pode lançar uma exceção personalizada.
+    public List<DemIngestionResponseDTO> getAllDemIngestionJobs() {
+        String demGetAllIngestionsUrl = demApiBaseUrl + "/ingestion"; // Endpoint do DEM que lista todos
+        logger.info("Consultando todos os jobs de ingestão no DEM: {}", demGetAllIngestionsUrl);
+
+        try {
+            // O endpoint do DEM retorna uma List<IngestionDTO>.
+            // Com RestTemplate, uma forma comum de obter uma lista é deserializar para um array e depois converter.
+            ResponseEntity<DemIngestionResponseDTO[]> response = restTemplate.getForEntity(
+                    demGetAllIngestionsUrl,
+                    DemIngestionResponseDTO[].class); // Espera um array de DemIngestionResponseDTO
+
+            if (response.getStatusCode().is2xxSuccessful() && response.getBody() != null) {
+                logger.info("Recebidos {} jobs de ingestão do DEM.", response.getBody().length);
+                return Arrays.asList(response.getBody());
+            } else {
+                logger.error("Falha ao consultar todos os jobs de ingestão no DEM. Status: {}, Body: {}",
+                             response.getStatusCode(), response.getBody());
+                return Collections.emptyList(); // Lançar exceção
+            }
+        } catch (RestClientException e) {
+            logger.error("Erro de comunicação ao consultar todos os jobs de ingestão no DEM: ", e);
+            return Collections.emptyList(); 
         }
     }
 }

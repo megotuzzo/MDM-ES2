@@ -1,5 +1,7 @@
 package com.es2.mdm.controller;
 
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -74,6 +76,24 @@ public class AdminController {
             logger.error("Erro ao tentar verificar status do job {} no DEM: ", demJobId, e);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
                                  .body("Erro interno no MDM ao tentar consultar status no DEM: " + e.getMessage());
+        }
+    }
+
+   
+    // Este endpoint é usado para consultar o status de todas ingestões no DEM.
+    // Ele retorna uma lista de objetos DemIngestionResponseDTO, cada um representando o status de um job de ingestão.
+    @GetMapping("/ingest/status/all")
+    public ResponseEntity<?> getAllDemIngestionStatuses() {
+        logger.info("Recebida solicitação administrativa para verificar status de todos os jobs no DEM");
+        try {
+            List<DemIngestionResponseDTO> demResponses = demIntegrationService.getAllDemIngestionJobs();
+            // A lista pode estar vazia se não houver jobs ou se houver um erro tratado no serviço que retorna lista vazia.
+            // Se demIntegrationService puder lançar exceções, o GlobalExceptionHandler do MDM pode pegá-las.
+            return ResponseEntity.ok(demResponses);
+        } catch (Exception e) { // Captura exceções que podem vir do DemIntegrationService (se ele as lançar)
+            logger.error("Erro ao tentar verificar status de todos os jobs no DEM: ", e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                                 .body("Erro interno no MDM ao tentar consultar todos os status no DEM: " + e.getMessage());
         }
     }
 }
